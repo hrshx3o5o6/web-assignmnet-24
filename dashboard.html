@@ -1,0 +1,56 @@
+<html> <title> dashboard </title>
+<head>
+    <style>
+        table {
+            width: 100%;
+            background-color: rgb(147, 147, 147);
+        }
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        td a {
+            text-decoration: none;
+            color: black;
+        }
+        td:hover {
+            background-color: deepskyblue;
+        }
+        .sidebar {
+            width: 100px;
+            height: 80vh;
+            background-color: lightgray;
+            padding: 10px;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar li {
+            padding: 8px;
+        }
+        .sidebar li:hover {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><a href="#">Home</a></td>
+            <td><a href="#">Reports</a></td>
+            <td><a href="#">Settings</a></td>
+            <td><a href="#">Logout</a></td>
+        </tr>
+    </table>
+    <div class="sidebar">
+        <ul>
+            <li>Overview</li>
+            <li>Sales</li>
+            <li>Users</li>
+            <li>Support</li>
+        </ul>
+    </div>
+</body>
+</html>
